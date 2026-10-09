@@ -1,0 +1,5 @@
+# Data and reuse notice
+
+This snapshot is a private preliminary aggregate-result export from locally computed analysis packages based on public research resources. Public access to original resources does not establish unrestricted redistribution rights. No blanket license is granted for third-party source datasets, annotation labels, gene sets, articles or publisher supplements. Original source identifiers and provenance hashes are preserved for attribution and verification; consult the original resources for their applicable terms.
+
+Raw data, per-person/sample metadata, expression matrices, barcode libraries, copied annotation/gene-set payloads and author-reported statistics/supplements are outside this export. Aggregate feature annotations and pathway labels retained within locally computed result tables remain subject to their original resource terms. This repository provides no legal determination of reuse rights and no claim of clinical utility, independent replication or completed science.

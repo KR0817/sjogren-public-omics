@@ -1,0 +1,52 @@
+{
+  "producer_full_source_equivalence": "PASS_ALL_200_DECOMPRESSED_FILES",
+  "portable_cli": "PASS",
+  "cli_checks": 61,
+  "schema_families_tested": 24,
+  "pipe_delimiter_tested": true,
+  "null_literal_preservation_tested": true,
+  "offline_validator_rows": 3308952,
+  "read_only_file_sha_unchanged": true,
+  "privacy_scan": "PASS_PUBLISHABLE_TEXT_AND_SOURCE_EQUIVALENT_GZIP",
+  "scientific_complete": false,
+  "independent_review_sha256": "30845fbcbd9a6a520f47d215927b84d37f8759e102ede475aa7f8b257359cf87",
+  "independent_review_scope": {
+    "tables": 200,
+    "source_row_samples": 890,
+    "all_target_rows": 183,
+    "portable_cli_checks": 24,
+    "methods_packages": 17,
+    "privacy": "all table cells and decoded metadata"
+  },
+  "original_independent_review": "PASS_SCOPED_PRIVATE_PRELIMINARY_EXPORT",
+  "split_transport_delta_review": "PASS_SOURCE_EQUIVALENT_API_SAFE_PARTS",
+  "partition_equivalence": {
+    "logical_table_id": "GSE75679_Fatigue_Methylation_Exploratory_20261007_v1/all_probe_results.csv.gz",
+    "rows": 485577,
+    "parts": 14,
+    "reassembled_sha256": "31fd92d1272168a197b6deb3e526ac737346fa3abe3f577d7f08ee16b4221043",
+    "original_decompressed_sha256": "31fd92d1272168a197b6deb3e526ac737346fa3abe3f577d7f08ee16b4221043",
+    "max_part_bytes": 3118620,
+    "complete_row_order_and_bytes_preserved": true
+  },
+  "split_producer_tests": {
+    "changed_table_validator": "PASS_FULL_485577_ROWS_14_PARTS",
+    "source_boundary_rows_checked": 28,
+    "actual_cli_checks": 34,
+    "target_gene_rows_checked": 9,
+    "unchanged_copied_files_sha_equal": 206,
+    "original_repository_unchanged": true,
+    "scientific_complete": false,
+    "independent_delta_review": "PASS_RECORDED_IN_SPLIT_INDEPENDENT_SCOPE"
+  },
+  "split_independent_scope": {
+    "logical_table_rows": 485577,
+    "parts": 14,
+    "boundary_rows": 28,
+    "portable_checks": 14,
+    "unchanged_files": 206,
+    "unchanged_logical_table_entries": 199,
+    "privacy_scope": "unchanged prior-scanned bytes; changed metadata separately reviewed",
+    "scientific_complete": false
+  }
+}
